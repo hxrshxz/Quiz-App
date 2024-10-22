@@ -56,5 +56,5 @@ body {
 .start-button {
     font-size:3rem;
     border-radius: 10px;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
 }
