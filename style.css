@@ -1,0 +1,60 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    margin: 0;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    height: 100vh;
+  }
+  .optionsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+    font-size: 2rem;
+  }
+  button {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .start-next-container {
+    width: 60%;
+    margin: 1rem;
+
+  }
+
+  .question {
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .container {
+    background-color: rgb(174, 255, 0);
+    padding: 1rem;
+    border-radius: 10px;
+    /* add a shadow */
+    box-shadow:  0 0 10px 0.5px rgb(0, 255, 8);
+  }
+
+  .hide {
+    display: none;
+  }
+
+.start-button {
+    font-size:3rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
